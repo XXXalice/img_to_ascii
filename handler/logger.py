@@ -5,7 +5,6 @@ import inspect
 class Logger():
     def __init__(self, log_file, n=__name__,):
         const_abs_path = inspect.stack()[0][1]
-        print(const_abs_path)
         self.logger = getLogger(n)
         self.logger.setLevel(DEBUG)
         formatt = Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -16,7 +15,7 @@ class Logger():
         handler.setFormatter(formatt)
         self.logger.addHandler(handler)
 
-        save_log_path = '/'+'/'.join(const_abs_path.split('/')[:-1])+'/'
+        save_log_path = '/'.join(const_abs_path.split('/')[:-1])+'/'
         handler = handlers.RotatingFileHandler(
             filename=save_log_path + log_file,
             maxBytes=math.inf, # どのアルファベットで間違えたかの研究のため現状無制限にしてある
