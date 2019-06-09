@@ -18,7 +18,7 @@ class Logger():
         save_log_path = '/'.join(const_abs_path.split('/')[:-1])+'/'
         handler = handlers.RotatingFileHandler(
             filename=save_log_path + log_file,
-            maxBytes=math.inf, # どのアルファベットで間違えたかの研究のため現状無制限にしてある
+            maxBytes=10**10,
             backupCount=5
         )
         handler.setLevel(DEBUG)
