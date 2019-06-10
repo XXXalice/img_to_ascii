@@ -58,15 +58,15 @@ class Encoder:
             target_img = img
         os.makedirs(os.path.join(self.strage_path, 'ascii'), exist_ok=True)
         x, y = target_img.size
-        target_img.show()
-        pixels = np.array(img.getdata()).reshape(x, y, -1)
+        pixels = np.array(img.getdata()).reshape(y, x, -1)
         # pixels : 横（len==50）
         # つまり50が37個（縦）ある
         if not hasattr(self, 'cchars_dic'):
             with open(os.path.join(self.strage_path, 'cchar_dic.umeume'), 'r') as dic:
                 cchars = [cchar.rstrip('\n') for cchar in dic.readlines()]
-                self.cchars_dic = {idx: cchar for idx, cchar in zip(range(256), cchars)}
+                self.cchars_dic = {idx: cchar for idx, cchar in zip(reversed(range(256)), cchars)}
         cchar_art = ''
+
         for row in pixels:
             for col in row:
                 cchar_art += self.cchars_dic[col[0]]
