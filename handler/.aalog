@@ -1,0 +1,123 @@
+2019-06-10 17:14:46,932 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:14:46,935 - handler.logger - INFO - Processed, [gray]
+2019-06-10 17:14:46,935 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:16:26,573 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:16:26,574 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:16:46,203 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:16:46,205 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:16:46,206 - handler.logger - INFO - Processed, [gray]
+2019-06-10 17:18:41,976 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:18:41,977 - handler.logger - INFO - Processed, [gray]
+2019-06-10 17:18:41,999 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:19:06,651 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:19:06,651 - handler.logger - INFO - Processed, [gray]
+2019-06-10 17:19:06,651 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:20:21,651 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:20:21,652 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:20:21,652 - handler.logger - INFO - Processed, [gray]
+2019-06-10 17:20:41,666 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:20:41,666 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:20:41,666 - handler.logger - INFO - Processed, [gray]
+2019-06-10 17:22:14,323 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:22:14,323 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:22:14,324 - handler.logger - INFO - Processed, [gray]
+2019-06-10 17:25:14,724 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:25:14,725 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:25:14,726 - handler.logger - INFO - Processed, [gray]
+2019-06-10 17:25:31,451 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:25:31,453 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:25:31,453 - handler.logger - INFO - Processed, [gray]
+2019-06-10 17:25:55,335 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:25:55,336 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:25:55,336 - handler.logger - INFO - Processed, [gray]
+2019-06-10 17:26:04,514 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:26:04,514 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:26:04,514 - handler.logger - INFO - Processed, [gray]
+2019-06-10 17:27:34,019 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:27:34,019 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:27:34,020 - handler.logger - WARNING - Not implemented, [gray].
+2019-06-10 17:33:17,233 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:34:21,164 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:34:49,047 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:35:18,645 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:35:30,923 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:36:28,207 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:36:28,208 - handler.logger - WARNING - Not implemented, [gray].
+2019-06-10 17:36:28,209 - handler.logger - WARNING - Not implemented, [resize].
+2019-06-10 17:36:35,680 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:36:35,681 - handler.logger - INFO - Processed, [gray]
+2019-06-10 17:36:35,681 - handler.logger - INFO - Processed, [resize]
+2019-06-10 17:37:18,293 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:37:18,294 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:40:18,798 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:40:18,800 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:40:45,386 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:40:45,387 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:40:59,578 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:40:59,579 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:41:22,862 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:41:22,863 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:42:37,847 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:42:37,848 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:42:47,942 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:42:47,942 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:43:00,917 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:43:00,918 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:43:18,405 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:43:18,405 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:46:55,367 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:46:55,369 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:47:06,808 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:47:06,809 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:50:03,859 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:50:03,861 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:50:06,241 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:50:06,241 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:50:23,800 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:50:23,801 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:50:49,927 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:50:49,928 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:51:38,361 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:51:38,362 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 17:51:45,433 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 17:51:45,433 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:04:47,781 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:04:47,782 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:05:02,087 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:05:02,087 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:05:17,513 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:05:17,514 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:05:28,669 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:05:28,669 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:05:49,431 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:05:49,433 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:06:18,109 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:06:18,109 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:07:54,362 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:07:54,364 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:08:11,827 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:08:11,828 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:08:23,986 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:08:23,987 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:08:28,905 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:08:28,906 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:11:09,073 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:11:09,074 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:11:19,114 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:11:19,115 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:11:57,241 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:11:57,241 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:15:45,495 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:15:45,497 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:16:28,184 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-06-10 18:16:28,186 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:16:28,193 - handler.logger - INFO - Completed!
+2019-06-10 18:25:18,950 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/welcome.jpg
+2019-06-10 18:25:18,974 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:25:18,983 - handler.logger - INFO - Completed!
+2019-06-10 18:26:30,401 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/welcome.jpg
+2019-06-10 18:26:30,428 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:26:30,447 - handler.logger - INFO - Completed!
+2019-06-10 18:26:51,810 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/welcome.jpg
+2019-06-10 18:26:51,836 - handler.logger - INFO - Processed, [resize_gray]
+2019-06-10 18:26:51,905 - handler.logger - INFO - Completed!
