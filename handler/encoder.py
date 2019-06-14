@@ -51,11 +51,12 @@ class Encoder:
                 continue
         return processed_img
 
-    def img_2_cchar(self, img=None):
+    def img_2_cchar(self, img=None, reverse_mode=False):
         if img is None:
             target_img = self.img
         else:
             target_img = img
+        make_dic_iter = range(256) if reverse_mode else reversed(range(256))
         os.makedirs(os.path.join(self.strage_path, 'ascii'), exist_ok=True)
         x, y = target_img.size
         pixels = np.array(img.getdata()).reshape(y, x, -1)
@@ -64,7 +65,8 @@ class Encoder:
         if not hasattr(self, 'cchars_dic'):
             with open(os.path.join(self.strage_path, 'cchar_dic.umeume'), 'r') as dic:
                 cchars = [cchar.rstrip('\n') for cchar in dic.readlines()]
-                self.cchars_dic = {idx: cchar for idx, cchar in zip(reversed(range(256)), cchars)}
+                self.cchars_dic = {idx: cchar for idx, cchar in zip(make_dic_iter, cchars)}
+                # self.cchars_dic = {idx: cchar for idx, cchar in zip(reversed(range(256)), cchars)}
         cchar_art = ''
 
         for row in pixels:
