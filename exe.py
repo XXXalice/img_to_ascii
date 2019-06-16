@@ -11,5 +11,5 @@ args.reverse = True if args.reverse == 'true' else 0
 
 enc = Encoder()
 enc.upload(args.image)
-img = enc.preprocess('resize', aa_width=int(args.fineness))
+img = enc.preprocess('resize_gray', aa_width=int(args.fineness))
 cchar_art = enc.img_2_cchar(img, reverse_mode=args.reverse)

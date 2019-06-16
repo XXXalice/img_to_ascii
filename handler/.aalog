@@ -247,3 +247,6 @@
 2019-06-14 11:27:01,981 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/nakamitu.jpg
 2019-06-14 11:27:01,981 - handler.logger - INFO - Processed, [resize]
 2019-06-14 11:27:01,986 - handler.logger - INFO - Completed!
+2019-06-14 13:58:57,816 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/nakamitu.jpg
+2019-06-14 13:58:57,819 - handler.logger - INFO - Processed, [resize]
+2019-06-14 13:58:57,826 - handler.logger - INFO - Completed!
