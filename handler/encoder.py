@@ -13,6 +13,7 @@ class Encoder:
         self.log = Logger('.aalog')
         STRAGE_NAME = 'strage'
         self.strage_path = os.path.join('/'.join(inspect.stack()[0][1].split('/')[:-2]), STRAGE_NAME)
+        print(self.strage_path)
 
     def upload(self, fpath, collecting=True):
         with open(fpath, 'rb') as f:
