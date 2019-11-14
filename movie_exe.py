@@ -11,7 +11,7 @@ args.fineness = 50 if args.fineness is None else args.fineness
 args.frame = 10 if args.frame is None else args.frame
 args.reverse = True if args.reverse == 'true' else 0
 
-enc = MovieEncoder()
+enc = MovieEncoder(fps=args.frame)
 
 #ここからテスト
-enc.show_movie(args.movie)
+enc.show_movie(fpath=args.movie)

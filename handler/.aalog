@@ -355,3 +355,38 @@
 2019-11-07 16:39:34,808 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/codience.jpg
 2019-11-07 16:39:34,811 - handler.logger - INFO - Processed, [resize_gray]
 2019-11-07 16:39:34,888 - handler.logger - INFO - Completed!
+2019-11-09 13:56:21,230 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/codience.jpg
+2019-11-09 13:56:21,235 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-09 13:56:21,315 - handler.logger - INFO - Completed!
+2019-11-09 13:56:34,175 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/mikan.jpg
+2019-11-09 13:56:34,179 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-09 13:56:34,222 - handler.logger - INFO - Completed!
+2019-11-09 13:56:50,932 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/mikan.jpg
+2019-11-09 13:56:50,936 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-09 13:56:50,956 - handler.logger - INFO - Completed!
+2019-11-09 13:57:03,851 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/mikan.jpg
+2019-11-09 13:57:03,856 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-09 13:57:03,861 - handler.logger - INFO - Completed!
+2019-11-09 13:57:30,380 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/mikan.jpg
+2019-11-09 13:57:30,383 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-09 13:57:30,403 - handler.logger - INFO - Completed!
+2019-11-09 13:58:29,168 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/codience.jpg
+2019-11-09 13:58:29,171 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-09 13:58:29,246 - handler.logger - INFO - Completed!
+2019-11-09 18:11:45,586 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-11-09 18:11:45,588 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-09 18:11:45,600 - handler.logger - INFO - Completed!
+2019-11-09 18:12:14,799 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-11-09 18:12:14,800 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-09 18:12:14,803 - handler.logger - INFO - Completed!
+2019-11-09 18:12:25,514 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-11-09 18:12:25,515 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-09 18:12:25,521 - handler.logger - INFO - Completed!
+2019-11-09 18:12:35,420 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-11-09 18:12:35,421 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-09 18:12:35,464 - handler.logger - INFO - Completed!
+2019-11-09 18:13:16,004 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/test.jpg
+2019-11-09 18:13:16,008 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-09 18:13:16,054 - handler.logger - INFO - Completed!
+2019-11-14 15:30:32,471 - handler.logger - ERROR - can't init video file. [OpenCV(4.0.0) /Users/travis/build/skvark/opencv-python/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+]
