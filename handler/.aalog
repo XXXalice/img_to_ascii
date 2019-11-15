@@ -390,3 +390,16 @@
 2019-11-09 18:13:16,054 - handler.logger - INFO - Completed!
 2019-11-14 15:30:32,471 - handler.logger - ERROR - can't init video file. [OpenCV(4.0.0) /Users/travis/build/skvark/opencv-python/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
 ]
+2019-11-14 15:34:35,765 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/mikan.jpg
+2019-11-14 15:34:35,772 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-14 15:34:35,793 - handler.logger - INFO - Completed!
+2019-11-14 15:35:21,979 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/welcome.jpg
+2019-11-14 15:35:22,008 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-14 15:35:22,017 - handler.logger - INFO - Completed!
+2019-11-14 15:35:36,777 - handler.logger - INFO - saved img. /Users/umemiya/Desktop/internet_yakuza/aa/strage/welcome.jpg
+2019-11-14 15:35:36,809 - handler.logger - INFO - Processed, [resize_gray]
+2019-11-14 15:35:36,859 - handler.logger - INFO - Completed!
+2019-11-15 14:26:41,792 - handler.logger - ERROR - can't init video file. [OpenCV(4.0.0) /Users/travis/build/skvark/opencv-python/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+]
+2019-11-15 14:26:54,838 - handler.logger - ERROR - can't init video file. [OpenCV(4.0.0) /Users/travis/build/skvark/opencv-python/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+]
