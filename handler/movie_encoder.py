@@ -24,3 +24,20 @@ class MovieEncoder(Encoder):
             cap.release()
             cv2.destroyAllWindows()
 
+    def frame_capture(self, fpath):
+        movie_path = os.path.join(self.strage_path, fpath)
+        frames = []
+        try:
+            cap = cv2.VideoCapture(movie_path)
+            while(cap.isOpened()):
+                _, frame = cap.read()
+                gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+                frames.append(gray)
+        except Exception as e:
+            self.log.error(msg="can't init video file.", errmsg=str(e))
+            return None
+        finally:
+            cap.release()
+            cv2.destroyAllWindows()
+            return frames
+

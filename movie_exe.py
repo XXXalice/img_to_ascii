@@ -14,4 +14,7 @@ args.reverse = True if args.reverse == 'true' else 0
 enc = MovieEncoder(fps=args.frame)
 
 #ここからテスト
-enc.show_movie(fpath=args.movie)
+# enc.show_movie(fpath=args.movie)
+
+frames = enc.frame_capture(fpath=args.movie)
+print(len(frames))
