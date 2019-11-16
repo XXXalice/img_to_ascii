@@ -17,4 +17,3 @@ enc = MovieEncoder(fps=args.frame)
 # enc.show_movie(fpath=args.movie)
 
 frames = enc.frame_capture(fpath=args.movie)
-print(len(frames))
