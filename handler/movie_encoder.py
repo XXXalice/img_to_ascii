@@ -41,3 +41,9 @@ class MovieEncoder(Encoder):
             cv2.destroyAllWindows()
             return frames
 
+    def frame_split(self):
+        """
+        fpsに応じてフレームを減らす
+        :return: 処理済みフレームリスト
+        """
+        pass
