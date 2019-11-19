@@ -18,3 +18,5 @@ enc = MovieEncoder(fps=args.frame)
 
 frames = enc.frame_capture(fpath=args.movie)
 enc.log.debug(type(frames[0]))
+frames = enc.preprocess_frame(frames=frames, aa_width=50)
+enc.log.debug(len(frames))

@@ -64,5 +64,6 @@ class MovieEncoder(Encoder):
         preprocessed_frames = []
         for frame in frames:
             pilimg = Image.fromarray(frame)
-            preprocessed_frame = self.preprocess(effects=effects, specify_img=pilimg, aa_width=aa_width)
+            preprocessed_frame = self.preprocess(effects, specify_img=pilimg, aa_width=aa_width)
             preprocessed_frames.append(preprocessed_frame)
+        return preprocessed_frames
