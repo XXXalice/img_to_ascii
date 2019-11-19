@@ -1,6 +1,8 @@
 import os
 from .encoder import Encoder
 import cv2
+import numpy as np
+from PIL import Image
 
 class MovieEncoder(Encoder):
     def __init__(self, fps):
@@ -59,5 +61,8 @@ class MovieEncoder(Encoder):
         :return: 処理済みフレーム
         """
         effects = "resize_gray"
+        preprocessed_frames = []
         for frame in frames:
-            self.preprocess(effects=effects, specify_img=frame,)
+            pilimg = Image.fromarray(frame)
+            preprocessed_frame = self.preprocess(effects=effects, specify_img=pilimg, aa_width=aa_width)
+            preprocessed_frames.append(preprocessed_frame)
