@@ -25,6 +25,11 @@ class MovieEncoder(Encoder):
             cv2.destroyAllWindows()
 
     def frame_capture(self, fpath):
+        """
+        動画のフレームを取得
+        :param fpath: 動画のパス
+        :return: frame一覧list（numpy.ndarray）
+        """
         movie_path = os.path.join(self.strage_path, fpath)
         frames = []
         try:
@@ -47,3 +52,12 @@ class MovieEncoder(Encoder):
         :return: 処理済みフレームリスト
         """
         pass
+
+    def preprocess_frame(self, frames, aa_width=50):
+        """
+        フレーム一覧を受け取りaaに加工する
+        :return: 処理済みフレーム
+        """
+        effects = "resize_gray"
+        for frame in frames:
+            self.preprocess(effects=effects, specify_img=frame,)

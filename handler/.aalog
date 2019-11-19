@@ -403,3 +403,6 @@
 ]
 2019-11-15 14:26:54,838 - handler.logger - ERROR - can't init video file. [OpenCV(4.0.0) /Users/travis/build/skvark/opencv-python/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
 ]
+2019-11-19 17:21:27,749 - handler.logger - ERROR - can't init video file. [OpenCV(4.0.0) /Users/travis/build/skvark/opencv-python/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+]
+2019-11-19 17:21:27,752 - handler.logger - DEBUG - <class 'numpy.ndarray'>
