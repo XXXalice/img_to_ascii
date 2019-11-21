@@ -74,7 +74,7 @@ class MovieEncoder(Encoder):
         """
         cursesでアニメーションを実行する
         """
-        stdscr.crear()
+        stdscr.clear()
         stdscr.addstr("test")
         stdscr.refresh()
         stdscr.getkey()
