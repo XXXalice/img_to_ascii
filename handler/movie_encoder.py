@@ -2,12 +2,14 @@ import os
 from .encoder import Encoder
 import cv2
 import numpy as np
+import curses
 from PIL import Image
 
 class MovieEncoder(Encoder):
     def __init__(self, fps):
         super().__init__()
         self.fps = fps
+        self.animation = curses.wrapper(self.__play_aa(stdscr=curses.initscr()))
 
     def show_movie(self, fpath):
         movie_path = os.path.join(self.strage_path, fpath)
@@ -67,3 +69,12 @@ class MovieEncoder(Encoder):
             preprocessed_frame = self.preprocess(effects, specify_img=pilimg, aa_width=aa_width)
             preprocessed_frames.append(preprocessed_frame)
         return preprocessed_frames
+
+    def __play_aa(self, stdscr):
+        """
+        cursesでアニメーションを実行する
+        """
+        stdscr.clear()
+        stdscr.addstr("test")
+        stdscr.refresh()
+        stdscr.getkey()
