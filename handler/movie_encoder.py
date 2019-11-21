@@ -9,7 +9,7 @@ class MovieEncoder(Encoder):
     def __init__(self, fps):
         super().__init__()
         self.fps = fps
-        self.animation = curses.wrapper(self.play_aa(stdscr=curses.initscr()))
+        self.animation = curses.wrapper(self.__play_aa(stdscr=curses.initscr()))
 
     def show_movie(self, fpath):
         movie_path = os.path.join(self.strage_path, fpath)
@@ -70,8 +70,11 @@ class MovieEncoder(Encoder):
             preprocessed_frames.append(preprocessed_frame)
         return preprocessed_frames
 
-    def play_aa(self, stdscr):
+    def __play_aa(self, stdscr):
         """
         cursesでアニメーションを実行する
         """
-        pass
+        stdscr.crear()
+        stdscr.addstr("test")
+        stdscr.refresh()
+        stdscr.getkey()
