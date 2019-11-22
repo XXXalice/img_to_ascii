@@ -74,7 +74,12 @@ class MovieEncoder(Encoder):
         """
         cursesでアニメーションを実行する
         """
+        if not hasattr(self, "frames"):
+            self.__get_frames()
         stdscr.clear()
         stdscr.addstr("test")
         stdscr.refresh()
         stdscr.getkey()
+
+    def __get_frames(self, frames):
+        self.frames = frames
