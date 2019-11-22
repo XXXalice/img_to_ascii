@@ -2,6 +2,7 @@ import os
 from .encoder import Encoder
 import cv2
 import numpy as np
+import time
 import curses
 from PIL import Image
 
@@ -9,7 +10,6 @@ class MovieEncoder(Encoder):
     def __init__(self, fps):
         super().__init__()
         self.fps = fps
-        self.animation = curses.wrapper(self.__play_aa(stdscr=curses.initscr()))
 
     def show_movie(self, fpath):
         movie_path = os.path.join(self.strage_path, fpath)
@@ -35,6 +35,7 @@ class MovieEncoder(Encoder):
         :return: frame一覧list（numpy.ndarray）
         """
         movie_path = os.path.join(self.strage_path, fpath)
+        self.fname = fpath.split(".")[0]
         frames = []
         try:
             cap = cv2.VideoCapture(movie_path)
@@ -63,23 +64,24 @@ class MovieEncoder(Encoder):
         :return: 処理済みフレーム
         """
         effects = "resize_gray"
-        preprocessed_frames = []
+        self.preprocessed_frames = []
         for frame in frames:
             pilimg = Image.fromarray(frame)
             preprocessed_frame = self.preprocess(effects, specify_img=pilimg, aa_width=aa_width)
-            preprocessed_frames.append(preprocessed_frame)
-        return preprocessed_frames
+            self.preprocessed_frames.append(preprocessed_frame)
+        return self.preprocessed_frames
 
-    def __play_aa(self, stdscr):
+    def animation(self, frames, reverse_mode=False):
+        self.__play_aa(stdscr=curses.initscr(), frames=frames, reverse_mode=reverse_mode)
+
+    def __play_aa(self, stdscr, frames, reverse_mode=False):
         """
         cursesでアニメーションを実行する
         """
-        if not hasattr(self, "frames"):
-            self.__get_frames()
-        stdscr.clear()
-        stdscr.addstr("test")
-        stdscr.refresh()
-        stdscr.getkey()
-
-    def __get_frames(self, frames):
-        self.frames = frames
+        for frame in frames:
+            char_frame = self.img_2_cchar(img=frame, reverse_mode=reverse_mode)
+            print(char_frame)
+            stdscr.clear()
+            stdscr.addstr("aaa")
+            time.sleep(0.3)
+            stdscr.refresh()

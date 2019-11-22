@@ -16,9 +16,9 @@ enc = MovieEncoder(fps=args.frame)
 #ここからテスト
 # enc.show_movie(fpath=args.movie)
 
-# frames = enc.frame_capture(fpath=args.movie)
-# enc.log.debug(type(frames[0]))
-# frames = enc.preprocess_frame(frames=frames, aa_width=50)
-# enc.log.debug(len(frames))
+frames = enc.frame_capture(fpath=args.movie)
+enc.log.debug(type(frames[0]))
+frames = enc.preprocess_frame(frames=frames, aa_width=50)
+enc.log.debug(len(frames))
 
-enc.animation()
+enc.animation(frames)
