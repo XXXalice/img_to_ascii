@@ -2,6 +2,7 @@ import os
 from .encoder import Encoder
 import cv2
 import numpy as np
+import time
 import curses
 from PIL import Image
 
@@ -63,23 +64,25 @@ class MovieEncoder(Encoder):
         :return: 処理済みフレーム
         """
         effects = "resize_gray"
-        preprocessed_frames = []
+        self.preprocessed_frames = []
         for frame in frames:
             pilimg = Image.fromarray(frame)
             preprocessed_frame = self.preprocess(effects, specify_img=pilimg, aa_width=aa_width)
-            preprocessed_frames.append(preprocessed_frame)
-        return preprocessed_frames
+            self.preprocessed_frames.append(preprocessed_frame)
+        return self.preprocessed_frames
 
-    def __play_aa(self, stdscr):
+    def __play_aa(self, stdscr, reverse_mode=False):
         """
         cursesでアニメーションを実行する
         """
         if not hasattr(self, "frames"):
-            self.__get_frames()
-        stdscr.clear()
-        stdscr.addstr("test")
-        stdscr.refresh()
-        stdscr.getkey()
+            self.__get_frames(frames=self.preprocessed_frames)
+        for frame in self.preprocessed_frames:
+            char_frame = self.img_2_cchar(img=frame, reverse_mode=reverse_mode)
+            stdscr.clear()
+            stdscr.addstr(char_frame)
+            time.sleep(0.3)
+            stdscr.refresh()
 
     def __get_frames(self, frames):
         self.frames = frames
