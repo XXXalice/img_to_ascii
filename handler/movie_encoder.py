@@ -78,10 +78,15 @@ class MovieEncoder(Encoder):
         """
         cursesでアニメーションを実行する
         """
-        for frame in frames:
-            char_frame = self.img_2_cchar(img=frame, reverse_mode=reverse_mode)
-            print(char_frame)
-            stdscr.clear()
-            stdscr.addstr("aaa")
-            time.sleep(0.3)
-            stdscr.refresh()
+        try:
+            for frame in frames:
+                char_frame = self.img_2_cchar(img=frame, reverse_mode=reverse_mode)
+                print(char_frame)
+                stdscr.clear()
+                stdscr.addstr("aaa")
+                time.sleep(0.3)
+                stdscr.refresh()
+        except Exception as e:
+            exit(1)
+        finally:
+            curses.endwin()
