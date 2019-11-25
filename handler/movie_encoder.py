@@ -77,6 +77,10 @@ class MovieEncoder(Encoder):
     def __play_aa(self, stdscr, frames, reverse_mode=False):
         """
         cursesでアニメーションを実行する
+        todo:
+            フレームの短期的な保存方法の模索
+            img_2_cchar()をそのまま利用する場合毎回.umeumeファイルとしてsaveが入るため処理が遅くなる
+
         """
         try:
             for frame in frames:
